@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Author: Can Chen 100778989, this xml setup permissions of app, activities, icon, and app name-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="canchen.spl">
+
+    <!--Give the APP internet access permit-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:supportsRtl="true"
+        android:label="SPS"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".ReserveActivity">
+        </activity>
+
+        <activity
+            android:name=".LoginActivity">
+        </activity>
+
+        <activity
+            android:name=".RegisterActivity">
+        </activity>
+
+        <activity
+            android:name=".ForgotPasswordActivity">
+        </activity>
+
+        <!--Set the startUpScreen be the first activity use will see when app is open-->
+        <activity
+            android:name=".StartUpScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

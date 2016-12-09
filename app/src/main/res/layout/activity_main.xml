@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="canchen.spl.MainActivity"
+    android:background="@color/White">
+
+    <ImageView
+        android:id="@+id/ivToolbar"
+        android:src="@drawable/menu_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/ivUserIcon"
+        android:src="@drawable/menu_drop_down_icon_1"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="0sp"
+        android:layout_marginTop="2sp"
+        android:layout_centerHorizontal="false"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/spinnerTextView"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/qrText"
+        android:hint="Current reservation:"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ivToolbar"
+        />
+
+    <ImageView
+        android:id="@+id/qrImage"
+        android:layout_marginTop="40sp"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/qrText"
+        android:src="@drawable/logo"
+        />
+
+    <Button
+        android:id="@+id/bReserve"
+        android:layout_width="165sp"
+        android:layout_height="wrap_content"
+        android:text="New Reservation"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="10sp"
+        android:backgroundTint="@color/DeepSkyBlue"
+        />
+
+    <Button
+        android:id="@+id/bNavigate"
+        android:text="Navigate"
+        android:layout_width="165sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10sp"
+        android:backgroundTint="@color/DeepSkyBlue"
+        />
+
+</RelativeLayout>

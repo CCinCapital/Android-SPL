@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/bTwenty"
+        android:text="Top Up $20.00"
+        android:textSize="20sp"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:backgroundTint="@color/DeepSkyBlue"
+        />
+    <Button
+        android:id="@+id/bFifty"
+        android:text="Top Up $50.00"
+        android:textSize="20sp"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:backgroundTint="@color/DeepSkyBlue"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+    <Button
+        android:id="@+id/bOneHundred"
+        android:text="Top Up $100.00"
+        android:textSize="20sp"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/DeepSkyBlue"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+
+    <Button
+        android:id="@+id/bCancelTopUp"
+        android:text="Cancel"
+        android:textSize="20sp"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:backgroundTint="@color/DeepSkyBlue"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"
+        />
+
+</LinearLayout>

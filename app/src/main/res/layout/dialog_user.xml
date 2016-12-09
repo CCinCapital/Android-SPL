@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/White">
+
+    <ImageView
+        android:id="@+id/imWallet"
+        android:src="@drawable/logo1"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:hint="Balance Remaining:  $NN.NN"
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10sp"
+        android:gravity="center"
+        android:layout_height="50sp"
+        android:layout_toRightOf="@+id/imWallet"
+        />
+
+    <Button
+        android:id="@+id/bTopUp"
+        android:textSize="20sp"
+        android:hint="Add Fund"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/DeepSkyBlue"
+        android:layout_below="@+id/tvBalance"
+        android:layout_marginTop="20sp"
+        />
+
+    <Button
+        android:id="@+id/bProfile"
+        android:textSize="20sp"
+        android:hint="Manage Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/DeepSkyBlue"
+        android:layout_below="@+id/bTopUp"
+        />
+
+    <Button
+        android:id="@+id/bLogout"
+        android:textSize="20sp"
+        android:hint="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bProfile"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/DeepSkyBlue"
+        />
+
+</RelativeLayout>

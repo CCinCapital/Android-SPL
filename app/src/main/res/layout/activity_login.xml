@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:contentDescription="LOGO"
+        android:src="@drawable/logo"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/cbRemember"
+        android:layout_alignEnd="@+id/cbRemember" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:hint="Enter username"
+        android:textSize="20sp"
+        android:layout_width="210sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivLogo"
+        android:layout_marginTop="20sp"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:hint="Enter password"
+        android:textSize="20sp"
+        android:layout_width="210sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUsername"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        />
+
+
+    <TextView
+        android:id="@+id/tvKeepLoggedIn"
+        android:text="Keep me logged in"
+        android:textSize="15sp"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignLeft="@id/etPassword"
+        android:layout_marginTop="20sp"
+        android:gravity="right"
+        />
+
+    <CheckBox
+        android:id="@+id/cbRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvKeepLoggedIn"
+        android:layout_alignBaseline="@+id/tvKeepLoggedIn"
+        />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:text="Login"
+        android:textSize="20sp"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvKeepLoggedIn"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/DeepSkyBlue"
+        />
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:text="New User"
+        android:textSize="15sp"
+        android:textColor="@color/DeepSkyBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:text="Can't Login?"
+        android:textSize="15sp"
+        android:textColor="@color/DeepSkyBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

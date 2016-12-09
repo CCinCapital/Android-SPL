@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20sp"
+    android:background="@color/White">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:contentDescription="LOGO"
+        android:src="@drawable/logo"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="40sp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/stringGarage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Garage:"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivLogo"
+        />
+
+    <Button
+        android:id="@+id/buttonGarage"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="Select Garage"
+        android:layout_below="@+id/stringGarage"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/stringDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Date: "
+        android:layout_marginTop="15sp"
+        android:layout_below="@+id/buttonGarage"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="Select Date"
+        android:layout_below="@+id/stringDate"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/stringTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="Time: "
+        android:layout_below="@+id/buttonDate"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/buttonTime"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="Select Time"
+        android:layout_below="@+id/stringTime"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/buttonReserve"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Reserve"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonTime"
+        android:backgroundTint="@color/DeepSkyBlue"
+        />
+
+    <TextView
+        android:id="@+id/tvCancel"
+        android:textSize="15sp"
+        android:text="Go Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/buttonReserve"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

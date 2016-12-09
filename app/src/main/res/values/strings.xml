@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SPL</string>
+    <string-array name="main_menu_spinner">
+        <item>Profile</item>
+        <item>Logout</item>
+    </string-array>
+</resources>
