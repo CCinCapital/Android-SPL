@@ -133,9 +133,9 @@ public class LoginActivity extends Activity implements AsyncResponse{
     //inner class that log user into the service
     private class BackgroundLogin extends AsyncTask<String, Integer, String> {
         //variables that keeps the login information that are required when connecting to server
-        String dbURL = "jdbc:mysql://192.168.0.100:3306/parkinglots";
-        String dbUsername = "root";
-        String dbPassword = "";
+        private String dbURL = "jdbc:mysql://localhost.000webhost.com/id522773_sps_test";
+        private String dbUsername = "id522773_sps_test";
+        private String dbPassword = "d_@Afr7spuDR";
         //interface that passes result to parent class
         public AsyncResponse delegate = null;
         //true if username present in database, false as opposite

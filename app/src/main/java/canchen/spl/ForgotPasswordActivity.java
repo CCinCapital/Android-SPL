@@ -102,9 +102,9 @@ public class ForgotPasswordActivity extends Activity implements AsyncResponse{
     //inner class that changes user's password in background
     public class BackgroundForgotPassword extends AsyncTask<String, Integer, String> {
         //variables that keeps the login information that are required when connecting to server
-        private String dbURL = "jdbc:mysql://192.168.0.100:3306/parkinglots";
-        private String dbUsername = "root";
-        private String dbPassword = "";
+        private String dbURL = "jdbc:mysql://localhost.000webhost.com/id522773_sps_test";
+        private String dbUsername = "id522773_sps_test";
+        private String dbPassword = "d_@Afr7spuDR";
         //interface that passes result to parent class
         public AsyncResponse delegate = null;
         //context of this class
