@@ -1,7 +1,7 @@
 # Android-SPL
 Android App for the 4th year project "Smart Parking Lot", this app enables customer to reserve their parking slot on-the-go. 
 ### Compatibility
-    Android 4.0 (API 14) ~ 7.0 (API 24)
+    Android 4.0 (API 14) +
 ### Installation
     - Download the SPL.apk in '../APK' folder
     - Install on a compatible android phone/emulator
