@@ -8,8 +8,8 @@ Android App for the 4th year project "Smart Parking Lot".<br/> This app enables 
 ### Compatibility
     Android 4.0 (API 14) +
 ### Installation
-    - Download the SPL.apk in '../APK' folder
-    - Install on a compatible android phone/emulator
+    1. Download the SPL.apk in '../APK' folder
+    2. Install on a compatible android phone/emulator
 ### External Library
     - Android-Universal-Image-Loader
         https://github.com/nostra13/Android-Universal-Image-Loader by nostra13
