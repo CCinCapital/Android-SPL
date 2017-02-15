@@ -8,7 +8,7 @@ Android App for the 4th year project "Smart Parking Lot".<br/> This app enables 
 ### Compatibility
     Android 4.0 (API 14) +
 ### Installation
-    !!! The SPL server is currently OFF, this app will not let customer passthough the login barrier.!!!
+    !!! The SPL server is currently OFFLINE, this app will not let customer passthough the login barrier.!!!
     1. Download the SPL.apk in '../APK' folder
     2. Install on a compatible android phone/emulator
 ### External Library
