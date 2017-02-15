@@ -1,5 +1,8 @@
 # Android-SPL
 Android App for the 4th year project "Smart Parking Lot", this app enables customer to reserve their parking slot on-the-go. 
+![Goal](https://github.com/CCinCapital/Android-SPL/blob/master/img/Goal.jpg)
+![Result](https://github.com/CCinCapital/Android-SPL/blob/master/img/Result.jpg)
+
 ### Compatibility
     Android 4.0 (API 14) +
 ### Installation
