@@ -1,5 +1,5 @@
-# Android-SPL
-Android App for the 4th year project "Smart Parking Lot".<br/> This app enables customer to reserve their parking slot on-the-go. 
+# Android-SPS
+Android App for the 4th year project "Smart Parking Services".<br/> This app enables customer to reserve their parking slot on-the-go. 
 ### What was the goal?
 ![Goal](https://github.com/CCinCapital/Android-SPL/blob/master/img/Goal.jpg)
 ### What was the result?
